@@ -59,28 +59,21 @@ PACKAGES=(
     kube-ps1
     libjpeg
     libmemcached 
-    lynx
     markdown
     maven
     memcached
-    mercurial
     npm
     node
     nvm
     pkg-config
     postgresql
-    python
-    python3
-    pypy
     rabbitmq
     rename
     shellcheck
     ssh-copy-id
     terminal-notifier
     the_silver_searcher
-    tmux
     tree
-    vim
     wget
 )
 
@@ -94,24 +87,14 @@ echo "Installing cask..."
 brew install caskroom/cask/brew-cask
 
 CASKS=(
-    colluquy
-    dropbox
-    firefox
     flux
     google-chrome
     google-cloud-sdk
-    google-drive
     gpg-suite
-    gpgtools
     iterm2
     intellij-idea
-    macvim
     rambox
-    skype
     slack
-    spectacle
-    vagrant
-    virtualbox
     visual-studio-code
     vlc
 )
@@ -127,14 +110,6 @@ FONTS=(
     font-clear-sans
 )
 brew cask install ${FONTS[@]}
-
-echo "Installing Python packages..."
-PYTHON_PACKAGES=(
-    ipython
-    virtualenv
-    virtualenvwrapper
-)
-sudo pip install ${PYTHON_PACKAGES[@]}
 
 echo "Installing Ruby gems"
 RUBY_GEMS=(
