@@ -38,7 +38,8 @@ PACKAGES=(
     automake
     asdf
     awscli
-    boot2docker
+    docker
+    docker-machine
     ffmpeg
     gettext
     gifsicle
@@ -105,6 +106,7 @@ CASKS=(
     iterm2
     intellij-idea
     macvim
+    rambox
     skype
     slack
     spectacle
