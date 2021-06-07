@@ -1,0 +1,63 @@
+sdkman -- gestion java / gradle 
+ohmyzsh
+ohmyzsh : plugins=(zsh-autosuggestions zsh-syntax-highlighting git brew golang compleat docker helm kubectl aws)
+
+
+homebrew_installed_packages:
+  - awscli
+  - autojump
+  - asdf
+  - git
+  - gh
+  - go
+  # There is a bug, install it manually 
+  #- gpg-suite
+  - highlight
+  - hugo
+  - kubectx
+  - kubernetes-cli
+  - kube-ps1
+  - kubedecode
+  - maven
+  - npm
+  - node
+  - nvm
+  - shellcheck
+
+homebrew_cask_apps:
+  - google-cloud-sdk
+  - iterm2
+  - intellij-idea
+  - visual-studio-code
+  - vlc
+
+npm_installed_packages:
+  - howdoi
+  - tldr
+  - yarn
+  
+asdf_plugins: 
+  - { name: terraform }
+  - { name: kubectl }
+  - { name: terraform-docs }
+  - { name: conftest }
+  - { name: terraform-validator }
+  - { name: fluxctl }
+  - { name: hub }
+
+-----
+
+alias ll='ls -laG'
+alias gal='gcloud auth login'
+alias kctx='kubectx'
+
+kube_ps1 trick to get short name  zshrc :
+
+source "/usr/local/opt/kube-ps1/share/kube-ps1.sh"
+PS1='$(kube_ps1)'$PS1
+
+function get_cluster_short() {
+  echo "$1" | sed 's/.*-masterprice//' | sed 's/-qualification/qualif/' | sed 's/loadtest-production/🚀load🚀/' | sed 's/-production/⚠️ prod🔥/'
+}
+KUBE_PS1_CLUSTER_FUNCTION=get_cluster_short
+#PROMPT='$(kube_ps1)'$PROMPT
