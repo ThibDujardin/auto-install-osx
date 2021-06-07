@@ -19,7 +19,6 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 brew update
 
 # Install GNU core utilities (those that come with OS X are outdated)
-brew tap homebrew/dupes
 brew install coreutils
 brew install gnu-sed  
 brew install gnu-tar  
@@ -99,16 +98,16 @@ CASKS=(
 )
 
 echo "Installing cask apps..."
-brew cask install ${CASKS[@]}
+brew install --cask ${CASKS[@]}
 
 echo "Installing fonts..."
-brew tap caskroom/fonts
+brew tap homebrew/fonts
 FONTS=(
     font-inconsolidata
     font-roboto
     font-clear-sans
 )
-brew cask install ${FONTS[@]}
+brew install --cask ${FONTS[@]}
 
 echo "Installing Ruby gems"
 RUBY_GEMS=(
