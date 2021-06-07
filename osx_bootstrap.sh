@@ -24,7 +24,6 @@ brew install gnu-sed
 brew install gnu-tar  
 brew install gnu-indent  
 brew install gnu-which  
-brew install gnu-grep  
 
 # Install GNU core utilities (those that come with OS X are outdated)
 brew install findutils
@@ -52,7 +51,7 @@ PACKAGES=(
     imagemagick
     jq
     kubectx
-    kubedecode
+    mveritym/homebrew-mel/kubedecode
     kubernetes-cli
     kube-ps1
     libjpeg
@@ -99,15 +98,6 @@ CASKS=(
 
 echo "Installing cask apps..."
 brew install --cask ${CASKS[@]}
-
-echo "Installing fonts..."
-brew tap homebrew/fonts
-FONTS=(
-    font-inconsolidata
-    font-roboto
-    font-clear-sans
-)
-brew install --cask ${FONTS[@]}
 
 echo "Installing Ruby gems"
 RUBY_GEMS=(
