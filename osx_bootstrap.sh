@@ -49,11 +49,13 @@ PACKAGES=(
     hub
     hugo
     imagemagick
+    jmeter
     jq
     kubectx
     mveritym/homebrew-mel/kubedecode
     kubernetes-cli
     kube-ps1
+    lens
     libjpeg
     libmemcached 
     markdown
@@ -84,14 +86,16 @@ echo "Installing cask..."
 brew install caskroom/cask/brew-cask
 
 CASKS=(
+    docker
     flux
-    google-chrome
+    #google-chrome
     google-cloud-sdk
     gpg-suite
     iterm2
     intellij-idea
     rambox
     slack
+    spotify
     visual-studio-code
     vlc
 )
@@ -113,7 +117,7 @@ npm install marked -g
 echo "Configuring OSX..."
 
 # Set fast key repeat rate
-defaults write NSGlobalDomain KeyRepeat -int 0
+#defaults write NSGlobalDomain KeyRepeat -int 0
 
 # Require password as soon as screensaver or sleep mode starts
 defaults write com.apple.screensaver askForPassword -int 1
@@ -124,8 +128,12 @@ defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 
 
 # Enable tap-to-click
-defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
-defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
+#defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
+#defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
+
+
+# Remove mouse acceleration
+defaults write .GlobalPreferences com.apple.mouse.scaling -1
 
 
 # Enable "natural" scroll
