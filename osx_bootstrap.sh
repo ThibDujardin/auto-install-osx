@@ -51,6 +51,7 @@ PACKAGES=(
     imagemagick
     jmeter
     jq
+    k9s
     kubectx
     mveritym/homebrew-mel/kubedecode
     kubernetes-cli
