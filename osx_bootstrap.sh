@@ -87,6 +87,7 @@ echo "Installing cask..."
 brew install caskroom/cask/brew-cask
 
 CASKS=(
+    alfred
     docker
     flux
     #google-chrome
@@ -94,6 +95,9 @@ CASKS=(
     gpg-suite
     iterm2
     intellij-idea
+    menumeters
+    notion
+    raycast
     rambox
     slack
     spotify
