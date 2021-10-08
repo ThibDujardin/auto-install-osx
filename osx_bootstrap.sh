@@ -35,6 +35,7 @@ PACKAGES=(
     automake
     asdf
     awscli
+    dive
     docker
     docker-machine
     ffmpeg
@@ -53,6 +54,7 @@ PACKAGES=(
     jq
     k9s
     kubectx
+    kustomize
     mveritym/homebrew-mel/kubedecode
     kubernetes-cli
     kube-ps1
