@@ -35,6 +35,7 @@ PACKAGES=(
     automake
     asdf
     awscli
+    azure-cli
     dive
     docker
     docker-machine
