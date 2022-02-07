@@ -1,6 +1,5 @@
 #!/bin/zsh
 
-
 alias ll='ls -laG'
 alias gal='gcloud auth login'
 alias kctx='kubectx'
