@@ -36,9 +36,10 @@ PACKAGES=(
     asdf
     awscli
     azure-cli
+    colima
     dive
     docker
-    docker-machine
+    docker-compose
     ffmpeg
     gettext
     gifsicle
@@ -50,6 +51,7 @@ PACKAGES=(
     highlight
     hub
     hugo
+    hyperkit
     imagemagick
     jmeter
     jq
@@ -59,16 +61,21 @@ PACKAGES=(
     mveritym/homebrew-mel/kubedecode
     kubernetes-cli
     kube-ps1
+    kubedecode
     lens
     libjpeg
     libmemcached 
     markdown
     maven
     memcached
+    minikube
     npm
     node
     nvm
     pkg-config
+    podman
+    popeye
+    powerlevel10k
     postgresql
     rabbitmq
     rename
@@ -78,6 +85,7 @@ PACKAGES=(
     the_silver_searcher
     tree
     wget
+    watch
 )
 
 echo "Installing packages..."
@@ -91,7 +99,6 @@ brew install caskroom/cask/brew-cask
 
 CASKS=(
     alfred
-    docker
     flux
     #google-chrome
     google-cloud-sdk
