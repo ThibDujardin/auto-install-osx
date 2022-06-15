@@ -30,12 +30,15 @@ brew install findutils
 
 PACKAGES=(
     ack
+    act
+    adr-tools
     autoconf
     autojump
     automake
     asdf
     awscli
     azure-cli
+    ca-certificates
     colima
     dive
     docker
@@ -48,6 +51,7 @@ PACKAGES=(
     go
     graphviz
     helm
+    hey
     highlight
     hub
     hugo
@@ -56,6 +60,7 @@ PACKAGES=(
     jmeter
     jq
     k9s
+    kcat
     kubectx
     kustomize
     mveritym/homebrew-mel/kubedecode
@@ -106,10 +111,12 @@ CASKS=(
     iterm2
     intellij-idea
     menumeters
+    macpass
     notion
     raycast
     rambox
     slack
+    signal
     spotify
     visual-studio-code
     vlc
@@ -141,7 +148,6 @@ defaults write com.apple.screensaver askForPasswordDelay -int 0
 # Show filename extensions by default
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 
-
 # Enable tap-to-click
 #defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
 #defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
@@ -150,9 +156,8 @@ defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 # Remove mouse acceleration
 defaults write .GlobalPreferences com.apple.mouse.scaling -1
 
-
 # Enable "natural" scroll
-defaults write NSGlobalDomain com.apple.swipescrolldirection -bool true
+# defaults write NSGlobalDomain com.apple.swipescrolldirection -bool true
 
 echo "Creating folder structure..."
 [[ ! -d Workspace ]] && mkdir Workspace
