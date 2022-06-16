@@ -79,7 +79,7 @@ PACKAGES=(
     nvm
     pkg-config
     podman
-    popeye
+    #popeye
     powerlevel10k
     postgresql
     rabbitmq

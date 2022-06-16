@@ -1,7 +1,6 @@
 sdkman -- gestion java / gradle 
 ohmyzsh
-ohmyzsh : plugins=(zsh-autosuggestions zsh-syntax-highlighting git brew golang compleat docker helm kubectl aws)
-
+ohmyzsh : plugins=(asdf zsh-autosuggestions zsh-syntax-highlighting git brew golang compleat docker helm kubectl aws)
 
 homebrew_installed_packages:
   - awscli
