@@ -44,6 +44,7 @@ PACKAGES=(
     docker
     docker-compose
     ffmpeg
+    fluxctl
     gettext
     gifsicle
     git
