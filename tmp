@@ -1,0 +1,38 @@
+==> Formulae
+ack				docker-credential-helper	gnu-sed				jmeter				libidn				libuv				mpdecimal			progress			theora
+act				docutils			gnu-tar				jpeg				libidn2				libvidstab			mpg123				python@3.10			tree
+adr-tools			erlang				gnu-which			jpeg-turbo			liblqr				libvmaf				ncurses				python@3.11			unbound
+aom				ffmpeg				gnutls				jpeg-xl				libmemcached			libvorbis			netpbm				python@3.9			unixodbc
+autoconf			findutils			go				jq				libnghttp2			libvpx				nettle				qemu				vde
+autojump			flac				gobject-introspection		k6				libogg				libx11				nghttp2				rabbitmq			watch
+automake			flux				graphite2			k9s				libomp				libxau				node				rav1e				webp
+avro-c				fluxctl				graphviz			kcat				libpng				libxcb				nvm				readline			wget
+awscli				fontconfig			gts				krb5				libpthread-stubs		libxdmcp			oniguruma			rename				wxmac
+azure-cli			freetype			guile				kube-ps1			libraw				libxext				opencore-amr			rubberband			wxwidgets
+bats-core			frei0r				harfbuzz			kubectx				librdkafka			libxrender			openexr				sdl2				x264
+bdw-gc				fribidi				helm				kubedecode			librist				libyaml				openjdk				serve				x265
+brotli				gd				hey				kubernetes-cli			librsvg				lima				openjpeg			shared-mime-info		xmlto
+c-ares				gdbm				highlight			kustomize			libsamplerate			little-cms2			openssl@1.1			shellcheck			xorgproto
+ca-certificates			gdk-pixbuf			highway				lame				libserdes			lua				opus				six				xvid
+cairo				gettext				hub				leptonica			libslirp			lz4				p11-kit				snappy				xz
+capstone			gh				hugo				libarchive			libsndfile			lzlib				pango				socat				yajl
+cjson				ghostscript			hyperkit			libass				libsodium			lzo				pcre				speex				zeromq
+cmocka				giflib				icu4c				libavif				libsoxr				m4				pcre2				sqlite				zimg
+colima				gifsicle			imagemagick			libb2				libssh				markdown			pixman				srt				zookeeper
+coreutils			git				imath				libbluray			libtasn1			markdownlint-cli		pkg-config			ssh-copy-id			zsh
+dav1d				git-gui				influxdb-cli			libde265			libtiff				mas				podman				tcl-tk				zsh-autosuggestions
+docbook				glib				jansson				libev				libtool				maven				popeye				telnet				zsh-syntax-highlighting
+docbook-xsl			gmp				jasper				libevent			libunibreak			mbedtls				postgresql			terminal-notifier		zstd
+docker				gnu-getopt			jbig2dec			libffi				libunistring			memcached			postgresql@14			tesseract
+docker-compose			gnu-indent			jemalloc			libheif				libusb				minikube			powerlevel10k			the_silver_searcher
+
+==> Casks
+datagrip		discord			google-cloud-sdk	intellij-idea		lens			mockoon			notion			rambox			signal			spotify			vlc
+devtoys			google-chrome		gpg-suite		iterm2			macpass			mqtt-explorer		postman			raycast			slack			visual-studio-code
+
+
+
+
+----------
+
+
